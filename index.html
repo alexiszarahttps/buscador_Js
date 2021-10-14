@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Buscador</title>
+    <script src="js/jquery.js"></script>
+    <script src="js/load.js"></script>
+    <script src="js/jquery.dataTables.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="estilo/estilo.css" />
+  </head>
+  <body>
+    <!-- Menu -->
+    <nav>
+      <input type="search" placeholder="Buscar . . ." id="inputBusqueda" />
+    </nav>
+      <!-- Busqueda -->
+      <div class="search" id="search">
+        <table class="search-tabla" id="searchTabla">
+          <thead>
+            <tr>
+              <td></td>
+            </tr>
+          </thead>
+          <tbody id="tabla"></tbody>
+        </table>
+      </div>
+    </main>
+
+    <script src="js/buscador.js"></script>
+  </body>
+</html>
